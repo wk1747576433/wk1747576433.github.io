@@ -1,4 +1,4 @@
-fixInstanceMethodAfter ('ZSHHomePageViewController', 'viewDidLoad', function(instance, originInvocation)
+fixInstanceMethodReplace ('AppDelegate', 'add2019NewYearLocalPush', function(instance, originInvocation)
 { 
     console.log('*** -> HotFix is work <- ***'); 
 });
