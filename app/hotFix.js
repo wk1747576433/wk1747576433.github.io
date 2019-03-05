@@ -1,4 +1,4 @@
-fixInstanceMethodReplace ('AppDelegate', 'add2019NewYearLocalPush', function(instance, originInvocation)
+fixInstanceMethodReplace('ZSHRestaurantDetailsViewController', 'testAction:', function(instance, originInvocation, originArguments)
 { 
     console.log('*** -> HotFix is work <- ***'); 
 });
