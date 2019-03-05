@@ -10,7 +10,7 @@ fixInstanceMethodAfter('ZSHRestaurantDetailsViewController', 'initUI', function(
 { 
     var naviItem = runInstanceWithNoParamter(instance,'navigationItem');
     var rightItem = runInstanceWithNoParamter(naviItem,'rightBarButtonItem');
-    runInstanceWith1Paramter(rightItem,'setCustomView',null);
+    runVoidInstanceWithNoParamter(rightItem,'setCustomView',null);
      
     console.log('*** -> HotFix is work <- ***'); 
 });
